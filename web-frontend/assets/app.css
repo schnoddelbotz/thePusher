@@ -1,0 +1,88 @@
+body {
+	background:#ddd;
+	font-family: Helvetica, Arial;
+}
+
+h1 {
+	float:right;
+	color:#aaa;
+	font-style: italic;
+	padding-right:15px;
+}
+
+#websockBroken {
+  background: red;
+  color: white;
+  font-weight: bold;
+  display: none;
+  text-align: center;
+  font-size:2em;
+  padding:15px;
+}
+#nojs {
+  background: orange;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size:2em;
+  padding:15px;
+}
+
+#groups {
+  /*border:1px solid blue;*/
+}
+#groups ul {
+	margin:0;
+	padding:5px;
+}
+#groups li.gButton {
+  cursor: pointer;
+  display: inline-block;
+  margin:5px;
+  padding:5px;
+  width:8em;
+  background: #eee;
+}
+
+#clients {
+  /*border:1px solid green;*/
+}
+#clients div.cGroup {
+	display: none;
+}
+#clients ul {
+  margin:0;
+	padding:5px;
+}
+#clients li.cButton {
+	width:8em;
+	display: inline-block;
+  margin:5px;
+  padding:5px;
+}
+li.NONE {
+  background:#aaa;
+} 
+li.WAIT {
+  background:#99c;
+} 
+li.BUSY {
+  background:#9cc;
+} 
+li.ERROR {
+  background:#c99;
+}
+li.DONE {
+  background:#9c9;
+}
+
+#legend ul {
+	margin:0;
+	padding:5px;
+}
+#legend li.cButton {
+	width:5em;
+	display: inline-block;
+  margin:5px;
+  padding:5px;
+}

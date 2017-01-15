@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>thePusher</title>
+  <link rel="stylesheet" href="/assets/app.css">
+  <link rel="icon" href="/favicon.png" type="image/png">
+</head>
+
+<body>
+  <script src="/assets/app.js"></script>
+  <div id="websockBroken">Oops, websocket has gone. Server booboo?</div>
+  <noscript><div id="nojs">Please enable JavaScript in your browser to enjoy!</div></noscript>
+
+  <h1>thePusher :: status monitor</h1>
+  
+  <h2>Client group</h2>
+  <div id="groupsDiv">
+    <ul id="groups"></ul>
+  </div>
+  
+  <h2>Clients</h2>
+  <div id="clientsDiv">
+    <ul id="clients"></ul>
+  </div>
+
+  <h3>Legend</h3>
+  <ul id="legend">
+		<li class="cButton NONE">no status</li>  
+		<li class="cButton WAIT">waiting</li>  
+		<li class="cButton BUSY">busy</li>  
+		<li class="cButton DONE">completed</li>
+		<li class="cButton ERROR">error</li>    
+  </ul>
+</body>
+</html>
+
